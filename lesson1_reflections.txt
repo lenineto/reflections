@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff between files brings the changes into the spotlight, which makes it naturally easier to see them.
+All is needed then is a little attention on a short piece of text to figure out the bugs.
+The whole "search for a need in a haystack" process is bypassed.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+File history adds the ability to roll back in time, which in turns gives you the ability to 
+1. revert back to a previous version and re-start from there (in case your latest version introduced hard to find bugs)
+2. diff a previous version and the actual one to quickly find newly introduced bugs
+3. identify who introduced the bug, which can be helpful in the whole bug squatchign process
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The only con I can see is that you may "forget" to commit and end up with too big commits which make them hard to read and diff.
+The pros are:
+1. flexibility - each programmer can suit their taste/needs 
+2. organization - manuall commits allow programmers to logically block their commits which makes it more organized, specially when collaborating
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because Git is made for code versioning and when programming, its common to have multiple files changed in a single logic block.
+For example, on a web application one feature will probably reflect changes on a PHP, JS and CSS files.
+
+How can you use the commands git log and git diff to view the history of files?
+I can use git log to see the history of commits and git diff to find the different between 2 commits.
+By comparing a commit with the previous one, git diff can shows how many lines have been added and removed
+
+How might using version control make you more confident to make changes that could break something?
+Because if you break anything you can simply roll back to the previous commit (which will immediatelly fix the newly introduced bug) and then
+you can diff the latest commit with the previous one and identify the new bug.
+That allows us to be more "brave" and experiment large blocks of changes at once without taking additional risks.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I wanna try using Git for any code that I'm working on and also wanna try PHP Storm Git's integration

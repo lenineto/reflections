@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates the directory .git with the metadata of the repo. You need to do that to create a new repo so you can use it for version control with Git.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging are is, as the name suggests, an intermediary directory that holds changes temporarily, while the working directory holds the latest changes and the repository holds all changes (and the metadata).
+It allows you to experiment and selectively add files to the repo, rather than simply adding everything.

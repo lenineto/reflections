@@ -4,3 +4,22 @@ Git creates the directory .git with the metadata of the repo. You need to do tha
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging are is, as the name suggests, an intermediary directory that holds changes temporarily, while the working directory holds the latest changes and the repository holds all changes (and the metadata).
 It allows you to experiment and selectively add files to the repo, rather than simply adding everything.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can use git diff --staged to see the changes between the staging area and the lastest commit.
+
+How do the diagrams help you visualize the branch structure?
+They help by allowing me to actually see the branches tree
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a combination of all commits created on BOTH branches, resulting in a new branch that incorporates all changes
+We represent in the diagram the way we do to indicate the chosen branch (master in our example) is the new checkpoint and it will make all commits from both branches accessible
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros of automatic merging:
+- resolves conflicts automatically and keep all commits organized by date
+- saves countless hours of human work
+- still gives you the ability to manually decide when GIT doesn't have enough to decide
+Cons:
+- you have less control over the process
+- fixing a conflict the wrong way and merging can lead to potential problems. It may get messy when you have to reset and you can easily get lots in all those HEADS

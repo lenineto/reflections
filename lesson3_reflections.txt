@@ -3,3 +3,15 @@ When developing a professional software (so you can work remotely) and to allow 
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 In a similar way to commits, push/pull manually gives the best control over the process and avoid unnecessary data transfer.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks operate on GitHub only. Its the same process as a clone, but internally on GitHub
+Clones operate both local or remote. You can clone a repo from GitHub (or any other git server) to your local computer, or you can clone locally from a folder to another
+Branches are contained within a repo and can be pushed and pulled
+
+When to use each:
+
+FORK to clone a repo from someone's GitHub to your own GitHub account
+CLONE to clone a repo from GitHub (or any other git server) to your local computer
+You can also CLONE a repo from your computer to another location on the same computer
+BRANCH to create separate variations of your code, useful when testing new feature before you decide to incorporate them, so the master branch can keep stable

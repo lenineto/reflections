@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When developing a professional software (so you can work remotely) and to allow collaboration. Personaly I'd ALWAYS use remote repo.

@@ -15,3 +15,6 @@ FORK to clone a repo from someone's GitHub to your own GitHub account
 CLONE to clone a repo from GitHub (or any other git server) to your local computer
 You can also CLONE a repo from your computer to another location on the same computer
 BRANCH to create separate variations of your code, useful when testing new feature before you decide to incorporate them, so the master branch can keep stable
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You'll be able to work on the project while offline, and still be able to merge your changes with anyone's changes during the time you were offline.
